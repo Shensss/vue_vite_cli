@@ -1,24 +1,15 @@
-# ts
-
-## Project setup
+#描述
+本地运行用vite 打包生产用webpack，集成qiankun（此项目为子应用）
+#开始
+esbuild存在一点坑，可能会安装失败，建议使用yarn安装
 ```
-npm install
+yarn install
 ```
-
-### Compiles and hot-reloads for development
+运行使用vite
 ```
-npm run serve
+npm run dev
 ```
-
-### Compiles and minifies for production
+打包使用webpack，即vue-cli的打包配置
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
